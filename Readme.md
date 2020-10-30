@@ -1,5 +1,5 @@
-##### This is a Github Card Project that can be use to get the information of users.
-
+## This is a Github Card Project that can be use to get the information of users.
+### Developed by using Github Api
 ### Project Deployed Link : https://csb-sj0vi.netlify.app/
 
 ## Project Image
