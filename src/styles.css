@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Spartan", sans-serif;
+  text-align: center;
+}
+
+.git-card-section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.git-heading {
+  /* background-color: #454e9e; */
+  background-color: #252422;
+  padding: 40px 30px;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #eb5e28;
+  text-transform: capitalize;
+}
+
+input {
+  width: 94%;
+  padding: 10px 15px;
+  font-size: 22px;
+  border-radius: 5px;
+  margin: 20px 0;
+  border:2px solid #eb5e28;
+  font-family: 'spartan';
+  color:#eb5e28;
+  background-color: #252422;
+
+}
+
+.card {
+  padding: 40px;
+  /* background-color: #00296b; */
+  background-color: #252422;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border:2px solid #eb5e28;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.git-user-metadata
+{
+  /* color:white; */
+  color:#eb5e28;
+  font-weight: 400;
+
+}
+
+#git-avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0px 0 20px 0;
+}
+
+#git-username, #git-user-bio, #git-user-country
+{
+  margin: 20px;
+  font-weight: 400;
+}
+
+
+
+.user-profile-data {
+  display: flex;
+  justify-content: space-around;
+  color:#eb5e28;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.numbers {
+  font-size: 28px;
+  display: block;
+  font-weight: 400;
+  margin-top:5px; 
+}
+
+#footer
+{
+  color:#eb5e28;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+a{
+color:white;
+text-decoration: none;
+}
+
+a:hover
+{
+  font-size:18px;
+}
+
+
+@media screen and (max-width:768px){
+  .git-card-section{
+    width: 90%;
+  }
+}
